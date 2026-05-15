@@ -35,16 +35,8 @@ python -m venv venv
 
 Activate virtual environment:
 
-### Windows
-
 ```bash
 venv\Scripts\activate
-```
-
-### Linux / Mac
-
-```bash
-source venv/bin/activate
 ```
 
 Install dependencies:
@@ -76,8 +68,6 @@ AI-Image-Classifier/
 This project can be deployed for free using:
 
 * Streamlit Community Cloud
-* Hugging Face Spaces
-* Render
 
 ## Requirements
 
@@ -87,10 +77,6 @@ tensorflow==2.15.0
 numpy<2.0
 pillow
 ```
-
-## Screenshots
-
-Add screenshots of your application here.
 
 ## Future Improvements
 
