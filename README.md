@@ -1,26 +1,102 @@
-# 🧠 AI Image Classifier (Django)
+# AI Image Classifier
 
-A simple **AI-powered Image Classification web application** built using **Django**.  
-Users can upload images, and the system classifies them using a trained AI model.
+An AI-powered image classification web application built using Streamlit and TensorFlow. Upload an image and the model predicts the object category using deep learning.
 
----
+## Features
 
-## 🚀 Features
+* Upload image files directly from browser
+* AI-based image classification
+* Fast predictions using TensorFlow
+* Simple and responsive Streamlit UI
+* Supports common image formats
 
-- Upload images through a web interface
-- AI-based image classification
-- Django backend
-- MySQL database support
-- Simple and clean project structure
+## Tech Stack
 
----
+* Python 3.11
+* TensorFlow 2.15
+* Streamlit
+* NumPy
+* Pillow
 
-## 🛠 Tech Stack
+## Installation
 
-- **Backend:** Django 5.2.8
-- **AI / ML:** NumPy, Pillow
-- **Database:** MySQL
-- **Visualization (optional):** Matplotlib
-- **Language:** Python 3.x
+Clone the repository:
 
----
+```bash
+git clone https://github.com/sajeerrr/AI-Image-Classifier.git
+cd AI-Image-Classifier
+```
+
+Create virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate virtual environment:
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run main.py
+```
+
+## Project Structure
+
+```text
+AI-Image-Classifier/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── venv/
+```
+
+## Deployment
+
+This project can be deployed for free using:
+
+* Streamlit Community Cloud
+* Hugging Face Spaces
+* Render
+
+## Requirements
+
+```text
+streamlit
+tensorflow==2.15.0
+numpy<2.0
+pillow
+```
+
+## Screenshots
+
+Add screenshots of your application here.
+
+## Future Improvements
+
+* Multiple model support
+* Better UI design
+* Real-time webcam classification
+* Confidence score visualization
+* Custom trained models
+
