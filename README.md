@@ -1,4 +1,4 @@
-# AI Image Classifier
+# ClassifiX - AI Image Classifier
 
 An AI-powered image classification web application built using Streamlit and TensorFlow. Upload an image and the model predicts the object category using deep learning.
 
